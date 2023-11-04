@@ -1,11 +1,9 @@
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -34,5 +32,32 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  background-color: #101418;
+  min-height: 100vh;
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .column {
+    width: 100%;
+    min-height: 50vh;
+  }
+  .row {
+    flex-direction: column;
   }
 }
