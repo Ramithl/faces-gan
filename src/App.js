@@ -13,7 +13,7 @@ function App() {
         <Button>Blonde</Button>
         <Button>Black</Button>
       </ButtonGroup></div>
-      <div class="column">afaf</div>
+      <div class="column">*image*</div>
     </div>
   );
 }
