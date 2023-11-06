@@ -1,0 +1,24 @@
+.input-box{
+    background-color: #141d25;
+    padding: 50px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #2F88E2;
+    border-style: solid;
+    /* width: 30%; */
+  }
+
+.toggle-card{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.input-title{
+  margin-bottom: 3%;
+  font-size:small;
+  font-weight: 500;
+  color: #5a778a;
+}
