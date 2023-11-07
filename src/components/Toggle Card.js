@@ -6,7 +6,7 @@ import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 
 
 
-function ToggleCard() {
+function ToggleCard({value1, value2, title}) {
     const [alignment, setAlignment] = React.useState('web');
 
     const handleChange = (event, newAlignment) => {
@@ -14,18 +14,18 @@ function ToggleCard() {
     };
     return (
         <div class="toggle-card">
-            <div class="input-title">Hair</div>
+            <div class="input-title">{title}</div>
             <ToggleButtonGroup
                 color="secondary"
                 value={alignment}
                 exclusive
                 onChange={handleChange}
                 aria-label="Platform"
-                // fullWidth={true}
+                fullWidth={true}
                 size='small'
             >
-                <ToggleButton value="web">Black</ToggleButton>
-                <ToggleButton value="android">Blonde</ToggleButton>
+                <ToggleButton value="web">{value1}</ToggleButton>
+                <ToggleButton value="android">{value2}</ToggleButton>
             </ToggleButtonGroup>
         </div>
     );

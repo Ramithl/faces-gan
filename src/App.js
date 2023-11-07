@@ -21,9 +21,9 @@ function App() {
     <ThemeProvider theme={theme}>
     <div class="row">
       <div class="column">
-        <InputCard/>
+        *Image*
       </div>
-      <div class="column">*image*</div>
+      <div class="column"><InputCard/></div>
     </div>
     </ThemeProvider>
   );

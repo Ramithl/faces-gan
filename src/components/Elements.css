@@ -6,6 +6,10 @@
     border-color: #2F88E2;
     border-style: solid;
     /* width: 30%; */
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    
   }
 
 .toggle-card{
@@ -21,4 +25,25 @@
   font-size:small;
   font-weight: 500;
   color: #5a778a;
+}
+
+.input-box-title{
+  align-self:center;
+  margin-bottom: 4%;
+  font-size:large;
+  font-weight: 500;
+  color: #66B2FF;
+}
+
+
+.gen-btn{
+  margin-top: 5%;
+}
+@media (max-width: 768px) {
+  .toggle-card {
+    margin-bottom: 7%;
+  }
+  .input-box {
+    padding: 5%;
+  }
 }
